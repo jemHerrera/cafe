@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    position:relative;
+    text-decoration:none;
+    list-style-type: none;
+    box-sizing:border-box;
+}
+body{
+    background-color:#f3f3f3;
+    /* font-family:'Lato', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#2b2b2b;
+    font-size:1em;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size:300%;
+    font-weight:200;
+    margin:2% 0;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    line-height:1.2;
+    margin:2% 0;
+}
+hr{
+    border:0.5px solid #b5b5b5;
+}
+.flex-row{
+    display:flex;
+    flex-direction:row;
+}
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+.wrapper{
+    max-width:1180px;
+    margin:auto;
+    align-items:center;
+}
+.dotted{
+    border:1px dotted #2b2b2b;
+}
+.solid{
+    border:1px solid #2b2b2b;
+}
+
+
+
+
+
+
+/* --------START HEADER-------- */
+
+
+
+
+
+
+header > .wrapper > img{
+    width:20%;
+    margin:5% 0;
+}
+nav{
+    justify-content:center;
+    height:4em;
+    background-color:#2b2b2b;
+    width:100%;
+}
+nav > ul{
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+nav > ul > li{
+    margin: 0 2%;
+}
+nav > ul > li > a{
+    font-size:110%;
+    font-weight:200;
+    color:#d3d3d3;
+    transition:color 300ms ease-in-out;
+}
+nav > ul > li > a:hover{
+    color:#ffffff;
+}
+
+.banner{
+    background:url('images/banner.jpg')no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    width:100vw;
+    height:60vh;
+}
+
+
+
+
+
+/* --------START STORY-------- */
+
+
+
+
+
+.main{
+    margin: 10% 10%;
+}
+#story{
+    justify-content: space-evenly;
+}
+#story > .story-text{
+    width:65%;
+}
+#story > .story-image{
+    width:27%;
+    align-self:center;
+}
+#story > .story-image > img{
+    width:100%;
+}
+
+
+
+
+
+
+/* --------START MENU-------- */
+
+
+
+
+
+
+.main-menu{
+    box-shadow: -10px 5px 40px 1px #a5a5a5;
+    margin: 3% 0;
+}
+.main-menu > div{
+    margin:1%;
+    width:50%;
+}
+.category-head{
+    margin:2% 2% 7% 2%;
+}
+.item{
+    margin:2%;
+}
+.item-head, .with-extra{
+    justify-content:space-between;
+}
+.main-menu p{
+    font-size:80%;
+    line-height:1.4;
+    margin-top: 0;
+}
+.main-menu > div > h4{
+    font-size:250%;
+    margin: 3em 0;
+    text-align:center;
+    text-transform: uppercase;
+}
+.category-name{
+    font-size:120%;
+}
+.item-head > h4, .item > .item-body > ul{
+    font-family: 'Lato', sans-serif;
+}
+.item > .item-body > ul{
+    font-size:65%;
+    font-weight:300;
+}
+
