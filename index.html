@@ -36,8 +36,11 @@
             </section>
             <hr>
             <section id="menu" class="main flex-column">
-                <h2>Menu</h2>
-                <section class="main-menu flex-row">
+                <div class="menu-text flex-column">
+                    <h2>Menu</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                </div>
+                <section class="breakfast main-menu flex-row">
                     <div class="flex-column">
                         <section class="category solid">
                             <div class="category-head">
@@ -106,24 +109,6 @@
                                     <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 </div>
                             </div>
-                            <div class="item flex-column">
-                                <div class="item-head flex-row">
-                                    <h4 class="item-name">Toast</h4>
-                                    <h4 class="item-price">1</h4>
-                                </div>
-                                <div class="item-body flex-column">
-                                    <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                                </div>
-                            </div>
-                            <div class="item flex-column">
-                                <div class="item-head flex-row">
-                                    <h4 class="item-name">Scrambled Egg on Toast</h4>
-                                    <h4 class="item-price">2</h4>
-                                </div>
-                                <div class="item-body flex-column">
-                                    <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                                </div>
-                            </div>
                         </section>
                     </div>
                     <div class="flex-column">
@@ -164,12 +149,7 @@
                                     <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.</p>
                                     <ul class="item-list flex-column">
                                         <li class="with-extra flex-row">
-                                            <span>Add some bacon!</span>
-                                            <span>1</span>
-                                        </li>
-                                        <li class="with-extra flex-row">
-                                            <span>Extra sausage!</span>
-                                            <span>1</span>
+                                            <p>
                                         </li>
                                     </ul>
                                 </div>
@@ -189,8 +169,7 @@
                                         <li>Toasted w/ Garlic</li>
                                         <li>4 Cheese</li>
                                         <li class="with-extra flex-row">
-                                            <span>Add some cream-cheese!</span>
-                                            <span>1</span>
+                                            <p>
                                         </li>
                                     </ul>
                                 </div>
@@ -198,9 +177,9 @@
                         </section>
                     </div>
                 </section>
-                <section class="main-menu flex-row">
+                <section class="main-menu lunch flex-row">
                     <div class="flex-column">
-                        <h4 class="main-menu-title">Lunch</h4>
+                        <h4 class="lunch-title">Lunch</h4>
                         <section class="category">
                             <div class="category-head">
                                 <h4 class="category-name">Bites:</h4>
@@ -321,36 +300,36 @@
             </section>
             <section id="opening-times" class="menu flex-column">
                 <h2>Opening Times</h2>
-                <ul>
-                    <li>
-                        <span class="day">Mondays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Tuesdays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Wednesdays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Thursdays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Fridays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Saturdays</span>
-                        <span class="time">8:30am - 5pm</span>
-                    </li>
-                    <li>
-                        <span class="day">Sundays</span>
-                        <span class="time">Closed</span>
-                    </li>
-                </ul>
+                <div>
+                    <div class="flex-row">
+                        <p class="day">Mondays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Tuesdays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Wednesdays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Thursdays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Fridays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Saturdays</p>
+                        <p class="time">8:30am - 5pm</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="day">Sundays</p>
+                        <p class="time">Closed</p>
+                    </div>
+                </div>
             </section>
         </div>
 
@@ -369,8 +348,8 @@
                     <li>jamiecafe@email.com</li>
                 </ul>
                 <p class="copyright flex-column">
-                    <span>&copy; Jamie's Riverview Cafe</span>
-                    <span>Website by <a href="jemherrera.com">Jem Herrera</a></span>
+                    <p>&copy; Jamie's Riverview Cafe</p>
+                    <p>Website by <a href="jemherrera.com">Jem Herrera</a></p>
                 </p>
             </div>
         </footer>

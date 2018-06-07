@@ -18,7 +18,7 @@ body{
 }
 h2{
     font-family: 'Oswald', sans-serif;
-    font-size:300%;
+    font-size:350%;
     font-weight:200;
     margin:2% 0;
 }
@@ -40,7 +40,6 @@ hr{
     flex-direction:column;
 }
 .wrapper{
-    max-width:1180px;
     margin:auto;
     align-items:center;
 }
@@ -110,11 +109,11 @@ nav > ul > li > a:hover{
 
 
 
-.main{
-    margin: 10% 10%;
-}
+
+
 #story{
     justify-content: space-evenly;
+    margin: 10%;
 }
 #story > .story-text{
     width:65%;
@@ -139,9 +138,24 @@ nav > ul > li > a:hover{
 
 
 
+
+#menu{
+    width:100%;
+    margin:0;
+    background-color: #2b2b2b;
+}
+.menu-text{
+    z-index:1;
+    color: #f3f3f3;
+    align-self:flex-end;
+    margin: 10% 10% 0 0;
+    width:20%;
+}
 .main-menu{
-    box-shadow: -10px 5px 40px 1px #a5a5a5;
-    margin: 3% 0;
+    box-shadow:-2px 8px 20px 4px rgba(0,0,0,.08);
+    width:600px;
+    opacity:1;
+    background-color:#f3f3f3;
 }
 .main-menu > div{
     margin:1%;
@@ -159,22 +173,49 @@ nav > ul > li > a:hover{
 .main-menu p{
     font-size:80%;
     line-height:1.4;
-    margin-top: 0;
+    margin-top:0;
 }
 .main-menu > div > h4{
     font-size:250%;
-    margin: 3em 0;
-    text-align:center;
-    text-transform: uppercase;
+    margin:1.5em 0;
+    text-transform:uppercase;
+    text-decoration:underline;
 }
 .category-name{
     font-size:120%;
 }
 .item-head > h4, .item > .item-body > ul{
-    font-family: 'Lato', sans-serif;
+    font-family:'Lato', sans-serif;
 }
 .item > .item-body > ul{
     font-size:65%;
     font-weight:300;
 }
-
+.breakfast{
+    margin: 0 0 0 14%;
+    top:-12em;
+    z-index:2;
+}
+.lunch{
+    z-index:1;
+    align-self:flex-end;
+    margin:0 14% 0 0;
+    top:-17em;
+}
+.lunch-title{
+    text-align:right;
+    margin:3em 0 0 0 !important;
+}
+#opening-times{
+    z-index:1;
+    color:#f3f3f3;
+    width:30%;
+    top:-23em;
+    margin-left:15%;
+    border:1px dashed #f3f3f3;
+    padding:1%;
+}
+#opening-times > div > div{
+    width:65%;
+    justify-content:space-between;
+}
