@@ -45,6 +45,9 @@ p{
     margin:5% 0;
     font-size:120%;
 }
+.dotted{
+    border:1px dashed #2b2b2b;
+}
 .solid{
     border:1px solid #2b2b2b;
 }
@@ -164,6 +167,15 @@ nav > ul > li > a:hover{
     margin-top:10%;
     color:#f3f3f3;
 }
+.menu-text > p {
+    line-height:1.1;
+    letter-spacing: 0.1em;
+    color:#a3a3a3;
+}
+.menu-text > p > span{
+    font-style:italic;
+    font-size: 90%;
+}
 .main-menu{
     box-shadow:-6px -5px 11px 9px rgba(0,0,0,.1);
     width:550px;
@@ -249,8 +261,11 @@ nav > ul > li > a:hover{
     padding:7% 0;
     margin:0;
 }
-#contact > div > img{
+#contact > div > a{
     width:70%;
+}
+#contact > div > a > img{
+    width:100%;
 }
 #contact h2{
     align-self:flex-start;
